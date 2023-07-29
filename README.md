@@ -43,7 +43,8 @@
 # 模型下载-LoRA权重
 模型名称  |大小|下载地址 
  ---- | ----- |-----
- HuangDi | 25.05MB |[百度网盘](https://pan.baidu.com/s/1yLjzeRSW8YB6x4SarU-QyA?pwd=i7g6 )
+ pretrain | 25.05MB |[百度网盘](https://pan.baidu.com/s/1k6P92JgMIim7q-H5pA8phA?pwd=h8h2)
+ sft|25.05MB|[百度网盘](https://pan.baidu.com/s/1Mzlk5FREpTPa4M7KnMooqQ?pwd=erit)
 # 模型效果
 应用示例  |Input|target 
  ---- | ----- |-----
