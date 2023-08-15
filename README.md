@@ -1,4 +1,4 @@
-# HuangDi（original name: zhongjing）-该名字源自中医古籍《黄帝内经》
+# HuangDi-该名字源自中医古籍《黄帝内经》
 介绍：首先在 [Ziya-LLaMA-13B-V1](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)基线模型的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的预训练语言模型（pre-trained model），之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调（SFT），使得模型具备中医古籍知识问答能力。<br>
 # 训练数据
 ## 继续预训练数据（纯文本语料）
