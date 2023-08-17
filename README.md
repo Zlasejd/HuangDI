@@ -25,26 +25,26 @@
 # 训练细节
 ## 实验参数
 
-超参数  | 继续预训练  | 有监督微调
- ---- | ----- | ------  
- learning_rate  | 6e-5 | 3e-4 
- lora_rank  | 16 | 16   
- num_train_epochs  | 5 | 6  
- per_device_train_batch_size  | 8 | 16 
- per_device_eval_batch_size  | - | 16   
- gradient_accumulation_steps  | 4 | 4
- lr_scheduler_type  | cosine | cosine 
- logging_steps  | 1000 | 100   
- save_steps  | 2000 | 5000  
- train_runtime  | 296767.9767 | 160986.1262 
- eval_runtime  | - | 296.5641   
- train_loss  | 1.456 | 1.245
- eval_loss  | - | 1.258
+超参数  | 继续预训练  | 有监督微调|DPO优化
+ ---- | ----- | ------|-----
+ learning_rate  | 6e-5 | 3e-4|3e-4
+ lora_rank  | 16 | 16 |16  
+ num_train_epochs  | 5 | 6 |6 
+ per_device_train_batch_size  | 8 | 16 |8
+ per_device_eval_batch_size  | - | 16|- 
+ gradient_accumulation_steps  | 4 | 4|4
+ lr_scheduler_type  | cosine | cosine |cosine
+ logging_steps  | 1000 | 100|100   
+ save_steps  | 2000 | 5000|2000     
+ train_loss  | 1.456 | 1.245|0.00276
+ eval_loss  | - | 1.258|-
 # 模型下载-LoRA权重
 模型名称  |大小|下载地址 
  ---- | ----- |-----
  pretrain | 25.05MB |[百度网盘](https://pan.baidu.com/s/1k6P92JgMIim7q-H5pA8phA?pwd=h8h2)
  sft|25.05MB|[百度网盘](https://pan.baidu.com/s/1Mzlk5FREpTPa4M7KnMooqQ?pwd=erit)
+ dpo|50.16MB|[百度网盘](https://pan.baidu.com/s/1m0TON938ArjKdIAjD3Mw4w)
+
 # 模型效果
 应用示例  |Input|通义千问|Huang-Di
  ---- | ----- |-----|------
