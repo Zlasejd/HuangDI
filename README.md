@@ -41,8 +41,8 @@
 # 模型下载-LoRA权重
 模型名称  |大小|下载地址 
  ---- | ----- |-----
- pretrain | 25.05MB |[百度网盘](https://pan.baidu.com/s/1k6P92JgMIim7q-H5pA8phA?pwd=h8h2)
- sft|25.05MB|[百度网盘](https://pan.baidu.com/s/1Mzlk5FREpTPa4M7KnMooqQ?pwd=erit)
+ pretrain | 25.05MB |[百度网盘](链接：https://pan.baidu.com/s/1xepTocJxWZbFvN2v4YqEiA?pwd=v6uk)
+ sft|25.05MB|[百度网盘](链接：https://pan.baidu.com/s/1nAX6mx6C0YTiFOBIz68zOw?pwd=v3fo)
  dpo|50.16MB|[百度网盘](https://pan.baidu.com/s/1m0TON938ArjKdIAjD3Mw4w)
 
 # 模型效果
