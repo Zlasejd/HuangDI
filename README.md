@@ -68,11 +68,7 @@
 
 如需商业用途可联系：1049506221@qq.com
 # 引用
-如果您使用了本项目的数据或者代码，或者认为本项目对您的研究有帮助，请引用本项目。
+如果您使用了本项目的数据或者代码，或者认为本项目对您的研究有帮助，请引用本项目在知网首发的文章。
+[1]张君冬,杨松桦,刘江峰,等.AIGC赋能中医古籍活化：Huang-Di大模型的构建[J].图书馆论坛,2024,44(10):103-112.
 
-    @misc{zhang2023huangdi,
-      title={HuangDi: 中医古籍生成式大语言模型的构建研究},
-      author={Jundong Zhang and Songhua Yang },
-      year={2023},
-      url={https://github.com/Zlasejd/HuangDi}
-    }  
+  
